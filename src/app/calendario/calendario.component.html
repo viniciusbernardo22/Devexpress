@@ -1,0 +1,9 @@
+<dx-scheduler
+  currentView="week"
+  [dataSource]="appointments"
+  textExpr="title"
+  allDayExpr="dayLong"
+  recurrenceRuleExpr="recurrence"
+>
+  <dxi-view type="day" [startDayHour]="10" [endDayHour]="22"> </dxi-view>
+</dx-scheduler>
